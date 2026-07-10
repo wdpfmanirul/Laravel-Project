@@ -69,6 +69,13 @@ php artisan serve
 
 Add project screenshots here.
 
+
+
+Email: admin@gmail.com          password:12345678    Role: admin
+Email: wdpfmanirul@gmail.com    password:12345678    Role: Employer
+Email: naimuddin@gmail.com      password:12345678    Role: Candidate/Employee
+
+
 ## Author
 
 **Manirul Islam**
