@@ -65,9 +65,7 @@ php artisan migrate
 php artisan serve
 ```
 
-## Screenshots
 
-Add project screenshots here.
 
 
 
