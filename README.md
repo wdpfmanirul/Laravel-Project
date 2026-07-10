@@ -1,20 +1,34 @@
-# Laravel Job Portal Website
+# 💼 Laravel Job Portal Website
 
-A modern Job Portal Website developed with Laravel. This platform allows employers to post jobs and job seekers to search and apply for available positions.
+A modern **Job Portal Web Application** built with **Laravel**, designed to connect employers with job seekers. Employers can publish job vacancies, while candidates can search, apply, and manage their job applications through an intuitive and responsive interface.
 
-## Features
+---
 
-- User Registration & Login
+## ✨ Features
+
+### 👨‍💼 Employer
+- Employer Registration & Login
 - Employer Dashboard
-- Job Seeker Dashboard
-- Job Posting Management
-- Job Search & Filtering
-- Job Application System
-- Profile Management
-- Secure Authentication
-- Responsive Design
+- Post, Edit & Delete Job Listings
+- Manage Job Applications
+- Company Profile Management
 
-## Technologies Used
+### 👨‍💻 Candidate
+- Candidate Registration & Login
+- Candidate Dashboard
+- Browse & Search Jobs
+- Apply for Jobs
+- Manage Profile & Resume
+
+### 🔐 General
+- Secure Authentication
+- Role-Based Access Control
+- Responsive User Interface
+- User Profile Management
+
+---
+
+## 🛠️ Technologies Used
 
 - Laravel
 - PHP
@@ -25,57 +39,116 @@ A modern Job Portal Website developed with Laravel. This platform allows employe
 - JavaScript
 - jQuery
 
-## Installation
+---
 
-1. Clone the repository
+## 🚀 Installation
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/wdpfmanirul/Laravel-Project.git
 ```
 
-2. Install dependencies
+### 2. Navigate to the project folder
+
+```bash
+cd Laravel-Project
+```
+
+### 3. Install PHP dependencies
 
 ```bash
 composer install
 ```
 
-3. Copy environment file
+### 4. Install Node.js dependencies
+
+```bash
+npm install
+```
+
+### 5. Copy the environment file
 
 ```bash
 cp .env.example .env
 ```
 
-4. Generate application key
+### 6. Generate the application key
 
 ```bash
 php artisan key:generate
 ```
 
-5. Configure your database in `.env`
+### 7. Configure your database
 
-6. Run migrations
+Update your database credentials in the `.env` file.
+
+### 8. Run database migrations
 
 ```bash
 php artisan migrate
 ```
 
-7. Start the development server
+### 9. Start the Laravel development server
 
 ```bash
 php artisan serve
 ```
 
+### 10. Start the Vite development server
 
+```bash
+npm run dev
+```
 
+---
 
+## 🔑 Demo Login Credentials
 
-Email: admin@gmail.com          password:12345678    Role: admin
-Email: wdpfmanirul@gmail.com    password:12345678    Role: Employer
-Email: naimuddin@gmail.com      password:12345678    Role: Candidate/Employee
+| Role | Email | Password |
+|------|-------|----------|
+| **Administrator** | admin@gmail.com | 12345678 |
+| **Employer** | wdpfmanirul@gmail.com | 12345678 |
+| **Candidate / Employee** | naimuddin@gmail.com | 12345678 |
 
+---
 
-## Author
+## 📁 Project Structure
+
+```
+app/
+bootstrap/
+config/
+database/
+public/
+resources/
+routes/
+storage/
+```
+
+---
+
+## 📷 Screenshots
+
+> Add screenshots of your project here.
+
+Examples:
+- Home Page
+- Employer Dashboard
+- Candidate Dashboard
+- Job Details
+- Job Application Page
+
+---
+
+## 👨‍💻 Author
 
 **Manirul Islam**
 
 GitHub: https://github.com/wdpfmanirul
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
